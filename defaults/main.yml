@@ -41,6 +41,11 @@ ansistrano_rsync_set_remote_user: yes
 
 ## Download strategy
 ansistrano_get_url: https://github.com/someproject/somearchive.tar.gz
+ansistrano_get_validate_certs: yes
+## Basic authentication is used when ansistrano_get_username is defined
+#ansistrano_get_username: "john"
+#ansistrano_get_password: "1234"
+
 
 ## S3 get strategy
 ansistrano_s3_bucket: s3bucket

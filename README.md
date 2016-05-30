@@ -124,6 +124,9 @@ Role Variables
 
   # Variables used in the download deployment strategy
   ansistrano_get_url: https://github.com/someproject/somearchive.tar.gz
+  ansistrano_get_validate_certs: "yes" # Set to false to download with self-certificates
+  ansistrano_get_username: "john" # If defined, use the basic authentication
+  ansistrano_get_password: "1234" # Password for the basic authentication
 
   # Variables used in the S3 deployment strategy
   ansistrano_s3_bucket: s3bucket

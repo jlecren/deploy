@@ -125,6 +125,7 @@ Role Variables
   # Variables used in the download deployment strategy
   ansistrano_get_url: https://github.com/someproject/somearchive.tar.gz
   ansistrano_get_validate_certs: "yes" # Set to false to download with self-certificates
+  ansistrano_get_checksum: "sha1:3d53e0972f19170619d2d209bc1199d9b7241f57" # Compare the checksum to the downloaded file to check its integrity
   ansistrano_get_username: "john" # If defined, use the basic authentication
   ansistrano_get_password: "1234" # Password for the basic authentication
 

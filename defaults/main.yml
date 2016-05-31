@@ -45,6 +45,8 @@ ansistrano_get_validate_certs: yes
 ## Basic authentication is used when ansistrano_get_username is defined
 #ansistrano_get_username: "john"
 #ansistrano_get_password: "1234"
+## Compare the checksum to the downloaded file to check its integrity
+#ansistrano_get_checksum: "sha1:3d53e0972f19170619d2d209bc1199d9b7241f57"
 
 
 ## S3 get strategy
